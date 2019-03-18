@@ -6,7 +6,7 @@ from datetime import datetime
 from pprint import pprint
 
 def load (name=''):
-    src='C:/Users/radzi/Downloads/messages/inbox/'
+    src='./messages'
     #directory = os.fsencode(src)
     list_json=[]
     for file in os.listdir(src):
